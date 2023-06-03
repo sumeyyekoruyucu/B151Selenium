@@ -1,6 +1,6 @@
 package techproed_odev.day03_odev;
 
-public class odev1 {
+public class Odev1 {
     public static void main(String[] args) {
         //Amazon sayfasına gidiniz
         //iphone aratınız

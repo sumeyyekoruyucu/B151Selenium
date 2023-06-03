@@ -41,6 +41,23 @@ public class C01_WebelementLocators {
         //Sayfayı kapatalım
         driver.close();
 
+             /*
+               WebElement Get Methodlari
+    webElement.click();                        Web elemente click yapar.
+    webElement.sendKeys("metin");              Parametre olarak yazilan metni Web elemente gonderir.
+    webElement.sendKeys("metin", Keys.Enter);  istedigimiz metni yollayip,sonra ENTER'a basar.
+    webElement.submit();                       Web elementi ile islem yaparken Enter tusuna basma gorevi yapar.
+    webElement.getText();                      Web element uzerindeki yaziyi getirir.
+    webElement.getTagName();                   web elementinin tag ismini getirir.
+    webElement.getAttribute("Att.ismi");       Ismi getirilen attribute'un degerini getirir.
+    webElement.isEnable();                     Web elementi erisilebilir ise true yoksa false doner.
+    webElement.isDisplayed();                  Web elementi gorunur ise true yoksa false doner.
+    webElement.isSelected();                   Web element secili ise true yoksa false doner
+
+    NOT; Web element ile ilgili bu methodlarin disinda size,istenen CSS ozelligi,Location,Rect.geometrik ozellikler,
+    DOM degeri vb...Bir cok method vardir ama Automation Test icin kullanmiyoruz
+
+     */
 
 
 
